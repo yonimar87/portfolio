@@ -5,7 +5,7 @@ import Gallery from '../components/Gallery'
 import Layout from '../components/layout'
 
 const HomeIndex = () => {
-  const siteTitle = 'Gatsby Starter - Strata'
+  const siteTitle = 'Yoni Marlow - Full Stack Developer'
   const siteDescription = 'Site description'
 
   return (
@@ -21,11 +21,11 @@ const HomeIndex = () => {
             <h2>
               Yoni Marlow
               <br />
-              Pet Detective
+              Software Engineerå
             </h2>
           </header>
           <p>
-            I am a current Full Stack Software Engineering student at General Assembly, due to complete my course in early August. My front-end experience is using JavaScript, React.js, CSS and HTML.
+            I am a recent graduate from General Assembly's Software Engineering Immersive course. My front-end experience is using JavaScript, React.js, CSS and HTML.
           </p>
           <p>
             I have experience in backend engineering using Node.js, MongoDB, Ruby on Rails, Firebase and some SQL and Postgres experience.</p>
