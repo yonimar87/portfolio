@@ -19,37 +19,31 @@ const HomeIndex = () => {
         <section id="one">
           <header className="major">
             <h2>
-              Ipsum lorem dolor aliquam ante commodo
+              Yoni Marlow
               <br />
-              magna sed accumsan arcu neque.
+              Pet Detective
             </h2>
           </header>
           <p>
-            Accumsan orci faucibus id eu lorem semper. Eu ac iaculis ac nunc
-            nisi lorem vulputate lorem neque cubilia ac in adipiscing in curae
-            lobortis tortor primis integer massa adipiscing id nisi accumsan
-            pellentesque commodo blandit enim arcu non at amet id arcu magna.
-            Accumsan orci faucibus id eu lorem semper nunc nisi lorem vulputate
-            lorem neque cubilia.
+            I am a current Full Stack Software Engineering student at General Assembly, due to complete my course in early August. My front-end experience is using JavaScript, React.js, CSS and HTML.
           </p>
-          <ul className="actions">
-            <li>
-              <a href="#" className="button">
-                Learn More
-              </a>
-            </li>
-          </ul>
+          <p>
+            I have experience in backend engineering using Node.js, MongoDB, Ruby on Rails, Firebase and some SQL and Postgres experience.</p>
+          <p> 
+            I found myself in the customer service and sales world where I’ve developed many integral life and business soft skills such as collaborating with other departments, sales, and most importantly really listening to a customer’s needs.
+          </p>
+          <p>
+            While working at RedBalloon and Prospa my love of web development has grown through my collaboration with the IT department on new products.
+          </p>
         </section>
 
         <section id="two">
           <h2>Recent Work</h2>
-
           <Gallery />
-
-          <ul className="actions">
+          <ul className="projects">
             <li>
-              <a href="#" className="button">
-                Full Portfolio
+              <a href="https://github.com/yonimar87" target="_blank" className="icon fa-github"> Please click to reach my GitHub profile
+              <span className="label">Github</span>
               </a>
             </li>
           </ul>
@@ -58,13 +52,11 @@ const HomeIndex = () => {
         <section id="three">
           <h2>Get In Touch</h2>
           <p>
-            Accumsan pellentesque commodo blandit enim arcu non at amet id arcu
-            magna. Accumsan orci faucibus id eu lorem semper nunc nisi lorem
-            vulputate lorem neque lorem ipsum dolor.
+            I'm currently looking for roles either in Full-Stack capacity or a front-end focus. Please reach out through the form below or send through an email via the "e-mail" tab in the footer.
           </p>
           <div className="row">
             <div className="8u 12u$(small)">
-              <form method="post" action="#">
+              <form method="post" action="mailto:yonathanmarlow@gmail.com">
                 <div className="row uniform 50%">
                   <div className="6u 12u$(xsmall)">
                     <input
@@ -101,26 +93,16 @@ const HomeIndex = () => {
             <div className="4u 12u$(small)">
               <ul className="labeled-icons">
                 <li>
-                  <h3 className="icon fa-home">
-                    <span className="label">Address</span>
-                  </h3>
-                  1234 Somewhere Rd.
-                  <br />
-                  Nashville, TN 00000
-                  <br />
-                  United States
-                </li>
-                <li>
                   <h3 className="icon fa-mobile">
                     <span className="label">Phone</span>
                   </h3>
-                  000-000-0000
+                  0412-639-879
                 </li>
                 <li>
                   <h3 className="icon fa-envelope-o">
                     <span className="label">Email</span>
                   </h3>
-                  <a href="#">hello@untitled.tld</a>
+                  <a href="#">yonathanmarlow@gmail.com</a>
                 </li>
               </ul>
             </div>
