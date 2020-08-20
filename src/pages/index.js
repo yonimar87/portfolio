@@ -21,7 +21,7 @@ const HomeIndex = () => {
             <h2>
               Yoni Marlow
               <br />
-              Software Engineerå
+              Software Engineer
             </h2>
           </header>
           <p>
