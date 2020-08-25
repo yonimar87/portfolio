@@ -5,7 +5,7 @@ import full04 from '../../../assets/images/fulls/04.png'
 import thumb02 from '../../../assets/images/thumbs/02.png'
 import thumb01 from '../../../assets/images/thumbs/01.png'
 import thumb03 from '../../../assets/images/thumbs/03.png'
-import thumb04 from '../../../assets/images/thumbs/04.png'
+import thumb04 from '../../../assets/images/thumbs/04.mp4'
 
 
 export const DEFAULT_IMAGES = [
