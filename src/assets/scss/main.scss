@@ -17,7 +17,7 @@
 		large: '(max-width: 1280px)',
 		medium: '(max-width: 980px)',
 		small: '(max-width: 736px)',
-		xsmall: '(max-width: 480px)'
+		// xsmall: '(max-width: 480px)'
 	));
 
 	@include skel-layout((
@@ -477,7 +477,7 @@
 				border-radius: _size(border-radius);
 				border: solid 3px rgba(255,255,255,0.5);
 				color: #fff;
-				content: 'View';
+				content: 'View', 'Live';
 				display: inline-block;
 				font-size: 0.8em;
 				font-weight: _font(weight-bold);
