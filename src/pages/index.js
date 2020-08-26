@@ -8,6 +8,12 @@ const HomeIndex = () => {
   const siteTitle = 'Yoni Marlow - Full Stack Developer'
   const siteDescription = 'Site description'
 
+  const resumeDownload = (e) => {
+    e.preventDefault()
+    window.open(
+    "https://drive.google.com/file/d/1c2Uzf7r3hka8BHH3qhFIwnXNUXWrNGSp/view?usp=sharing", "_blank");
+  }
+
   return (
     <Layout>
       <Helmet>
@@ -29,7 +35,7 @@ const HomeIndex = () => {
           </p>
           <p>
             I have experience in backend engineering using Node.js, MongoDB, Ruby on Rails, Firebase and some SQL and Postgres experience.</p>
-          <p> 
+          <p>
             I found myself in the customer service and sales world where I’ve developed many integral life and business soft skills such as collaborating with other departments, sales, and most importantly really listening to a customer’s needs.
           </p>
           <p>
@@ -103,6 +109,12 @@ const HomeIndex = () => {
                     <span className="label">Email</span>
                   </h3>
                   <a href="#">yonathanmarlow@gmail.com</a>
+                </li>
+                <li>
+                  <h3 className="icon fa-download">
+                    <span className="label">Download</span>
+                  </h3>
+                  <a onClick={resumeDownload} style={{cursor: "pointer"}}>Resume</a>
                 </li>
               </ul>
             </div>

@@ -13,9 +13,11 @@ const Gallery = ({ images = DEFAULT_IMAGES }) => {
     setSelectedIndex(selectedIndex)
   }, [lightboxIsOpen])
 
+
   return (
     <div>
-      {images && (<div className="row">
+      {images &&
+        (<div style={{ textAlign: "center"}}>
         {images.map((obj, i) => {
         return (<GalleryItem
           id={obj.id}
@@ -25,9 +27,10 @@ const Gallery = ({ images = DEFAULT_IMAGES }) => {
           description={obj.description}
           position={obj.position}
           toggleLightbox={obj.toggleLightbox}
+          link={obj.link}
           position={i}
           toggleLightbox={toggleLightbox}
-        />); 
+        />);
         })}
         </div>
       )}
